@@ -1,10 +1,12 @@
 @charset "UTF-8";
+
 p {
     background-color: #eee;
     width: 360px;
     height: 100px;
 }
-span{
+
+span {
     /* display: block; */
     /*コメントアウトを外してみると...*/
     background-color: #00f;
@@ -14,15 +16,19 @@ span{
     height: 50px;
     /*効いていない*/
 }
+
 .blue {
     color: blue;
 }
+
 .pink {
     color: #ff00cc;
 }
+
 .bg {
     background-color: #ff0;
 }
+
 .marker {
     background-color: #f0c;
 }
