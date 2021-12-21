@@ -304,8 +304,8 @@ address {
 }
 
 /* 入力欄に対する指定 */
-input [type="text"],
-input [type="email"],
+input[type="text"],
+input[type="email"],
 textarea {
   width: 100%;
   padding: 10px;
@@ -313,8 +313,8 @@ textarea {
 }
 
 /* 入力欄が:focus（入力状態）のとき */
-input [type="text"]:focus,
-input [type="email"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
 textarea:focus {
   border-color: #032559;
   outline: none;
