@@ -15,7 +15,7 @@ a {
 .logo {
   text-align: center;
   margin: auto;
-  max-width: 50%;
+  max-width: 85%;
 }
 
 img {
@@ -25,8 +25,7 @@ img {
   border-style: none;
 }
 
-ul,
-li {
+ul,li {
   list-style: none;
 }
 
@@ -543,7 +542,7 @@ li {
 
   /*  メインビジュアル */
   .main-visual {
-    height: 75vh;
+    height: 85vh;
   }
 
   .main-visual-inner {
