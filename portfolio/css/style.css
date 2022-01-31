@@ -3,7 +3,8 @@ body {
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: .8px;
-  color: #333;
+  color: #0e172c;
+  background-color: #d9d4e7;
 }
 
 a {
@@ -49,7 +50,7 @@ ul,li {
 }
 
 .section:nth-of-type(odd) {
-  background-color: #f7f7f7;
+  background-color: #d1ccdd;
 }
 
 .inner {
@@ -83,7 +84,7 @@ ul,li {
   top: 0;
   z-index: 1;
   width: 100%;
-  background-color: #fff;
+  background-color: #f3d7f8;
   box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
 }
 
@@ -103,7 +104,7 @@ ul,li {
 }
 
 .header-logo a {
-  color: #333;
+  color: rgb(100, 100, 100);
 }
 
 .header-nav-list {
@@ -123,7 +124,7 @@ ul,li {
   padding: 5px 0;
   transition: .3s;
   letter-spacing: .05em;
-  color: #333;
+  color: rgb(100, 100, 100);
 }
 .header-nav-item a:after {
   position: absolute;
@@ -199,6 +200,8 @@ ul,li {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -40px;
+  position: relative;
+  margin: auto;
 }
 
 .works-item {
@@ -216,14 +219,14 @@ ul,li {
   display: inline-block;
   max-width: 180px;
   text-align: center;
-  background-color: #293b6a;
+  background-color: #fec7d7;
   font-size: 16px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
   border: 1px dashed #FFF;
-  box-shadow: 0px 0px 0px 2px #293b6a;/* box-shadowで外枠を */
+  box-shadow: 0px 0px 0px 2px #e78fb3;/* box-shadowで外枠を */
 }
 
 .btn-denim:hover {
@@ -235,16 +238,15 @@ ul,li {
   max-width: 180px;
   height:50px;
   text-align: center;
-  background-color: #9ec34b;
+  background-color: #a786df;
   font-size: 16px;
   line-height: 52px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #9ec34b;
+  border: 2px solid #732cee;
   position: relative;
   overflow: hidden;
-  z-index: 1;
 }
 .btn-open:after{
   width: 100%;
@@ -260,7 +262,7 @@ ul,li {
   z-index: -1;
 }
 .btn-open:hover{
-  color: #9ec34b;
+  color: #293b6a;
 }
 .btn-open:hover:after{
   height: 240%;
@@ -276,18 +278,18 @@ ul,li {
   max-width: 180px;
   text-align: center;
   font-size: 16px;
-  color: #9ec34b;
+  color: #ffbf76;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
   position: relative;
-  border: 2px solid #9ec34b;
+  border: 2px solid #f8ad0a;
   transition: .4s;
 }
 
 .btn-box:hover {
   border: 2px solid transparent;
-  color: #000;
+  color: rgb(197, 241, 36);
 }
 
 .btn-box:before, .btn-box:after {
@@ -304,14 +306,14 @@ ul,li {
 }
 
 .btn-box:before {
-  border-bottom: 2px solid #000;
-  border-left: 2px solid #000;
+  border-bottom: 2px solid rgb(235, 231, 16);
+  border-left: 2px solid rgb(235, 231, 16);
   transform-origin: 100% 0%;
 }
 
 .btn-box:after {
-  border-top: 2px solid #000;
-  border-right: 2px solid #000;
+  border-top: 2px solid rgb(235, 231, 16);
+  border-right: 2px solid rgb(235, 231, 16);
   transform-origin: 0% 100%;
 }
 
@@ -330,7 +332,7 @@ ul,li {
   font-weight: bold;
   padding: 12px 24px;
   border-radius: 4px;
-  background-image: linear-gradient(-90deg, #89eb75, #f1e753);
+  background-image: linear-gradient(-90deg, #04fc56, #afffd7);
   transition: .5s;
   background-size: 200%;
 }
@@ -417,7 +419,7 @@ ul,li {
   padding: 10px;
   cursor: pointer;
   text-align: center;
-  background-color: #4c4c4c;
+  background-color: #f5ddfc;
 }
 
 .page-top .material-icons-outlined {
@@ -430,13 +432,14 @@ ul,li {
 ---------------------------------*/
 .footer {
   padding: 30px;
-  background-color: #333;
+  background-color:#f3cffa;
+  ;
 }
 
 .copyright {
   font-size: 10px;
   text-align: center;
-  color: #797979;
+  color: #000000;
 }
 
 /*--------------------------------
